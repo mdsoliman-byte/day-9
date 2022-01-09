@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(78, 250, 107);
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  height: 100vh;
+  width: 100%;
+  padding: 50px;
+}
+header {
+  display: flex;
+  margin-top: 20px;
+  background-color: rgb(78, 250, 107);
+  height: 60px;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+.logo {
+  flex: 1;
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+  text-transform: uppercase;
+}
+.menu-item {
+  flex: 3;
+  padding: 10px;
+  line-height: 20px;
+  cursor: pointer;
+}
+.menu-item ul {
+  display: flex;
+  line-height: 20px;
+}
+
+.menu-item ul li:hover {
+  background-color: rgb(94, 187, 110);
+}
+.menu-item ul li {
+  margin-left: 90px;
+  background-color: rgb(78, 250, 107);
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 900;
+}
+.signUp {
+  flex: 1;
+  text-align: center;
+  margin-top: 8px;
+}
+.signUp a {
+  background-color: rgb(78, 250, 107);
+  padding: 10px;
+  cursor: pointer;
+  position: absolute;
+  justify-content: center;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: 900;
+  text-align: center;
+}
+.signUp a:hover {
+  background-color: rgb(94, 187, 110);
+  color: white;
+}
+/* body Section */
+th {
+  font-size: 20px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+td,
+th {
+  border: 5px solid #fff;
+
+  padding: 15px;
+}
+.friend-list h1 {
+  text-align: center;
+  padding-bottom: 40px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 40px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+/* font aowsam icon style */
+.far,
+.fas,
+.fab {
+  padding: 10px;
+}
